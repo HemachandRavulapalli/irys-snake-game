@@ -1,5 +1,5 @@
 
-````markdown
+
 # 🐍 Irys Snake Game
 
 A custom snake game with a glowing hex background and animated food — themed after the Irys data network.
