@@ -2,7 +2,7 @@ import urllib.request
 import os
 from PIL import Image
 
-# List of image URLs
+
 urls = [
     "https://irysarcade.xyz/assets/media-pack/snake/Bottom_Left.jpg",
     "https://irysarcade.xyz/assets/media-pack/snake/Down.jpg",
@@ -16,7 +16,7 @@ urls = [
     "https://irysarcade.xyz/assets/media-pack/snake/Vertical.jpg"
 ]
 
-# Create folder named 'media' in current directory if not exists
+
 os.makedirs("media", exist_ok=True)
 
 for url in urls:
